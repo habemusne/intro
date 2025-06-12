@@ -1,0 +1,11 @@
+{
+  "navItems": ["about", "products", "affiliations", "certificates"],
+  "socialLinks": [
+    { "icon": "Github", "href": "https://github.com/habemusne", "label": "GitHub" },
+    { "icon": "Linkedin", "href": "https://www.linkedin.com/in/habemusne/", "label": "LinkedIn" },
+    { "icon": "Mail", "href": "mailto:itisnanful@gmail.com", "label": "Email" }
+  ],
+  "name": "Yueyang Chen",
+  "short_intro": "Generalist, architect, and coding maniac who likes to solve challenging problems.",
+  "intro": "Glad you stopped by. This site covers some of what I've worked on and thought about over time."
+}

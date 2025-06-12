@@ -1,0 +1,199 @@
+{
+  "affiliation": [
+    {
+      "id": 1,
+      "start": "2011-09-21",
+      "end": "2015-12-15",
+      "title": "B.S. in Joint Math & CS",
+      "organization": "UC San Diego",
+      "location": "La Jolla, CA"
+    },
+    {
+      "id": 2,
+      "start": "2018-08-12",
+      "end": "2019-08-06",
+      "title": "M.Eng. in CS & Engineering",
+      "organization": "Penn State",
+      "location": "State College, PA"
+    },
+    {
+      "id": 3,
+      "start": "2015-03-01",
+      "end": "2015-09-01",
+      "title": "Software Engineer Intern",
+      "organization": "TuSimple",
+      "location": "San Diego, CA",
+      "techs": ["Python", "Linux", "RabbitMQ", "AWS"]
+    },
+    {
+      "id": 4,
+      "start": "2016-07-21",
+      "end": "2018-08-06",
+      "title": "Software Engineer",
+      "organization": "Myers Media Group",
+      "location": "San Diego, CA",
+      "techs": ["Python", "React", "SQL", "AWS", "GAE", "Docker", "Linux", "PySpark", "Neo4j", "Solr", "Zeppelin"]
+    },
+    {
+      "id": 5,
+      "start": "2017-03-01",
+      "end": "2017-12-01",
+      "title": "Tech Lead",
+      "organization": "AI Master Inc",
+      "location": "San Diego, CA",
+      "techs": ["Vue", "Node", "SQL", "AliCloud", "Docker", "Mongo", "Linux"]
+    },
+    {
+      "id": 6,
+      "start": "2019-10-28",
+      "end": "2021-05-01",
+      "title": "Senior Data Engineer",
+      "organization": "Boston Consulting Group",
+      "location": "New York, NY",
+      "techs": ["Python", "SQL", "Angular", "Terraform", "AWS", "Azure", "GCP", "Snowflake", "Alteryx", "Databricks", "Docker", "Linux", "Windows"]
+    },
+    {
+      "id": 7,
+      "start": "2021-10-28",
+      "end": "current",
+      "title": "Lead Data Engineer",
+      "organization": "Nike Inc.",
+      "location": "Shenzhen, China",
+      "techs": ["Python", "SQL", "AWS", "Databricks", "Airflow", "Snowflake", "Tableau", "LLM"]
+    }
+  ],
+  "products": [
+    {
+      "start": "2017-06-01",
+      "end": "2017-09-01",
+      "name": "Interactive AI Courseware",
+      "description": "A snappy VueJS-powered textbook and flexible tree-editor for dynamic AI educational content.",
+      "phases_of_participation": ["0-1", "Scaling", "Maintenance"],
+      "achievements": [
+        "Rock-solid browser compatibility hitting 90%+ coverage (desktop, mobile, WeChat)",
+        "Went cross-border, powering seamless UX for users in US & CN"
+      ],
+      "proofs_of_work": [
+        {
+          "type": "video",
+          "title": "Demo Video",
+          "url": "https://www.bilibili.com/video/BV1FU4y1A7JB/"
+        }
+      ],
+      "affiliation_id": 5,
+      "techs": ["Vue", "Node", "SQL", "AliCloud", "Docker", "Mongo", "Linux"],
+      "thumbnail": "ai_master"
+    },
+    {
+      "start": "2017-10-01",
+      "end": "2018-03-01",
+      "name": "Fred – Smart Crawler Framework",
+      "description": "Event-driven, scalable toolkit for fast web crawlers and automated ETL pipelines.",
+      "phases_of_participation": ["0-1", "Scaling", "Maintenance"],
+      "achievements": [
+        "Killed duplicate data, achieving a 99% deduplication rate",
+        "Boosted crawler creation & data collection speed by 5x"
+      ],
+      "proofs_of_work": [
+        {
+          "type": "video",
+          "title": "Demo Video",
+          "url": "https://www.youtube.com/watch?v=nsrfEcbBOC0"
+        }
+      ],
+      "affiliation_id": 4,
+      "techs": ["Python", "Vue", "SQL", "AWS", "Docker", "Linux"],
+      "thumbnail": "fred"
+    },
+    {
+      "start": "2020-10-01",
+      "end": "2021-01-01",
+      "name": "Cloud-native ETL Framework",
+      "description": "Multi-cloud, event-driven platform streamlining ETL, analytics, and rapid testing workflows.",
+      "phases_of_participation": ["Scaling"],
+      "achievements": [
+        "DDD and event-driven chops data pipeline delivery times by ~30%",
+        "Wrote fast automation—deploy local Python to Databricks in 3 secs flat"
+      ],
+      "proofs_of_work": [],
+      "affiliation_id": 6,
+      "techs": ["SQL", "AWS", "Python", "Docker", "Linux", "PySpark", "Databricks", "Azure"],
+      "thumbnail": "cloud_native"
+    },
+    {
+      "start": "2023-07-01",
+      "end": "2024-05-01",
+      "name": "Airview",
+      "description": "Sharp Tableau dashboards to visualize Nike launch fairness and bot trends.",
+      "phases_of_participation": ["Transformation", "Maintenance"],
+      "achievements": [
+        "Refactored the stack with a new paradigm of development, cutting delivery time by 75%",
+        "Scaled dashboards 3x faster with half the folks required for maintenance",
+        "Authored an engineering guide. Dashboards has been well maintained despite nobody in the team is a Tableau expert"
+      ],
+      "proofs_of_work": [
+        {
+          "type": "pdf",
+          "title": "Dev Practices Guide",
+          "url": "airview_dev_guide.pdf"
+        }
+      ],
+      "affiliation_id": 7,
+      "techs": ["Tableau", "SQL", "AWS", "Linux", "Airflow", "Python", "PySpark"],
+      "thumbnail": "airview"
+    },
+    {
+      "start": "2022-07-01",
+      "end": "2024-03-01",
+      "name": "Bassoon – Code Generator",
+      "description": "Pipeline-generator supercharging ETL, pushing our team to 10x productivity",
+      "phases_of_participation": ["0-1", "Scaling", "Maintenance"],
+      "achievements": [
+        "Skyrocketed pipelines-per-maintainer ratio from 3 to 35",
+        "Expanded Airflow tasks 8x, data tables 20x, trimming down engineer headcount by 30%"
+      ],
+      "proofs_of_work": [
+        {
+          "type": "pdf",
+          "title": "Idea and Outcome (English)",
+          "url": "bassoon_english.pdf"
+        },
+        {
+          "type": "pdf",
+          "title": "Idea and Outcome (Chinese)",
+          "url": "bassoon_chinese.pdf"
+        }
+      ],
+      "affiliation_id": 7,
+      "techs": ["Python", "SQL", "AWS", "Linux", "Airflow", "PySpark"],
+      "thumbnail": "bassoon"
+    },
+    {
+      "start": "2025-04-20",
+      "end": "present",
+      "name": "Traceem",
+      "description": "Trend-centric aggregator for tracking expert takes—turning chatter into clarity.",
+      "phases_of_participation": ["0-1"],
+      "proofs_of_work": [
+        {
+          "type": "image",
+          "title": "WIP Screenshot",
+          "url": "traceem.png"
+        }
+      ],
+      "affiliation_id": null,
+      "techs": ["React", "Terraform", "Python", "Airflow", "AWS"],
+      "thumbnail": "traceem"
+    }
+  ],
+  "certificates": [
+    {
+      "date": "2021-01-01",
+      "name": "AWS Solutions Architect Pro"
+    },
+    {
+      "date": "2021-07-01",
+      "name": "CFA Level 1 Certified"
+    }
+  ]
+}
