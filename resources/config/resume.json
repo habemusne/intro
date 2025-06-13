@@ -135,7 +135,7 @@
         {
           "type": "pdf",
           "title": "Dev Practices Guide",
-          "url": "https://raw.githubusercontent.com/habemusne/intro/refs/heads/main/resources/assets/airview_dev_guide.pdf"
+          "url": "airview_dev_guide.pdf"
         }
       ],
       "affiliation_id": 7,
@@ -156,12 +156,12 @@
         {
           "type": "pdf",
           "title": "Idea and Outcome (English)",
-          "url": "https://raw.githubusercontent.com/habemusne/intro/refs/heads/main/resources/assets/bassoon_english.pdf"
+          "url": "bassoon_english.pdf"
         },
         {
           "type": "pdf",
           "title": "Idea and Outcome (Chinese)",
-          "url": "https://raw.githubusercontent.com/habemusne/intro/refs/heads/main/resources/assets/bassoon_chinese.pdf"
+          "url": "bassoon_chinese.pdf"
         }
       ],
       "affiliation_id": 7,
