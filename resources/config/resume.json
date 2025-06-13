@@ -189,11 +189,11 @@
   "certificates": [
     {
       "date": "2021-01-01",
-      "name": "AWS Solutions Architect Pro"
+      "name": "AWS Solutions Architect Professional"
     },
     {
       "date": "2021-07-01",
-      "name": "CFA Level 1 Certified"
+      "name": "CFA Level 1"
     }
   ]
 }
