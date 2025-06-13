@@ -1,5 +1,4 @@
 {
-  "navItems": ["about", "products", "affiliations", "certificates"],
   "socialLinks": [
     { "icon": "Github", "href": "https://github.com/habemusne", "label": "GitHub" },
     { "icon": "Linkedin", "href": "https://www.linkedin.com/in/habemusne/", "label": "LinkedIn" },
