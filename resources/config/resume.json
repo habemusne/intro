@@ -172,14 +172,15 @@
       "start": "2025-04-20",
       "end": "present",
       "name": "Foresay",
-      "description": "Turns spoken finance video into structured, queryable \"takes\"—who said what about which asset, the direction, the price levels and horizon—in English and Chinese. Takes carry an expiry, so stale calls fall away as horizons pass.",
+      "description": "Turns spoken finance video into structured, queryable opinion records—who said what about which asset, the direction, the price levels and horizon—in English and Chinese. Stale calls expire as their horizons pass.",
       "phases_of_participation": ["0-1"],
       "achievements": [
-        "Live at foresay.io — structured takes from spoken finance video, English and Chinese, with expiry so stale calls drop off",
-        "Cost at scale: one sample month (382 videos, 2,512 takes) ran ~$700 total model cost; new ingest to live data in 1–4h",
-        "Model drift without bill or calendar blow-up: on 17,000+ stored claim/quote pairs, genuine hallucinations stayed single-digit; what used to be days of manual review per iteration is now a same-day loop",
-        "Full coverage on long transcripts: each video is segmented into topics so nothing important is summarized away or silently skipped",
-        "Under 100 lines of Terraform touched in 6 months"
+        "Live at foresay.io — who-said-what on finance video, English and Chinese, with expiry so stale calls drop off",
+        "100% of displayed evidence traceable to the source video at second-level — every record deep-links to the timestamp for verification",
+        "Sample month at current scale: 382 videos · 122.8 hours spoken · 5.37M transcript characters → 2,512 structured opinion records · ~$700 total model spend",
+        "Low calendar cost to run: new ingest to live in 1–4h; under 100 lines of Terraform touched in 6 months",
+        "Model drift without eating the week: on 17,000+ stored claim/quote pairs, genuine hallucinations stayed single-digit; what used to be days of manual review per iteration is now a same-day loop",
+        "Full coverage on long transcripts: each video is segmented into topics so nothing important is summarized away or silently skipped"
       ],
       "proofs_of_work": [
         {
